@@ -6,7 +6,7 @@ Welcome to the DeepNeuralNLP repository! This repository is dedicated to our Mas
 
 ## Collaborators
 
-Here are the brilliant minds behind this project:
+Here are the minds behind this project:
 
 | Name           | Student ID  |
 |----------------|-------------|
