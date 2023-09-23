@@ -17,10 +17,8 @@ Here are the brilliant minds behind this project:
 
 ## Table of Contents
 
-- [Assignment 1](#assignment-1)
-- [Assignment 2](#assignment-2)
-- [Assignment 3](#assignment-3)
-- [Final Project](#final-project)
+- [Assignment 1](#[assignment-1](https://github.com/Sarvesh1814/DeepNeuralNLP/tree/Assignment-1-Train-Word2Vec-on-peS2o-Dataset-(AllenNLP)))
+
 
 
 
