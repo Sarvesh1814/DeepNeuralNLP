@@ -1,8 +1,8 @@
 # DeepNeuralNLP
 
-Welcome to the DeepNeuralNLP repository! This repository is dedicated to our Master's course IT555: Deep Neural NLP, taught by Professor Sourish Das Gupta, where we explore various aspects of Natural Language Processing (NLP) using deep learning techniques. Each branch in this repository represents a single assignment, which will eventually come together to form our final project.
+Welcome to the DeepNeuralNLP repository! This repository is dedicated to our Master's course IT555: Deep Neural NLP, taught by Professor Sourish Dasgupta, where we explore various aspects of Natural Language Processing (NLP) using deep learning techniques. Each branch in this repository represents a single assignment, which will eventually come together to form our final project.
 
-**Course Instructor: Prof. Sourishdas Gupta**
+**Course Instructor: Prof. Sourish Dasgupta**
 
 ## Collaborators
 
