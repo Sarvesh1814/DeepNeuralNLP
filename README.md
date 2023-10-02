@@ -45,4 +45,44 @@ Here is an outline of how to implement the above requirements:
    - Compute tf-idf scores for words in the entire dataset.
    - For each sentence, create a vector representation based on the tf-idf scores of the words it contains.
 
+## Code Explanation 
 
+### Data Preparation:
+
+Replace the corpus variable with your text corpus. The corpus should be a list of documents separated by periods.
+
+### TF-IDF Vectorization:
+
+Calculate TF-IDF values for the words in the corpus using the TfidfVectorizer from Scikit-Learn.
+
+### Initialization:
+
+Initialize context sentence vectors (Mc) using TF-IDF values.
+Initialize random sentence vectors (Wt and Wc) for center and context sentences.
+
+### Hyperparameters:
+
+Set hyperparameters such as epochs, window_size, and learning_rate according to your requirements.
+
+### Sigmoid Activation Function:
+
+Define the sigmoid activation function.
+
+### Binary Cross-Entropy Loss Function:
+
+Define the binary cross-entropy loss function.
+
+### Training Loop:
+
+1. Train the Word2Vec model with Skip-gram using binary cross-entropy loss.
+2. For each epoch:
+3. Shuffle the indices of the sentences.
+4. Split the data into batches (each containing batch_size sentences).
+5. For each sentence in each batch:
+   Compute the raw score (z) for the sentence.
+   Apply the sigmoid activation function to get the predicted context vector.
+   Calculate the loss based on binary cross-entropy between the predicted and true context vectors.
+6. Using gradient descent, Update the weight matrices (Wt and Wc).
+7. Accumulate the loss for the epoch.
+8. Print the total loss for the epoch.
+9. If the total loss falls below a threshold, stop training.
