@@ -18,6 +18,7 @@ Here are the minds behind this project:
 ## Table of Contents
 
 - [Assignment 1](https://github.com/Sarvesh1814/DeepNeuralNLP/tree/Assignment-1-Train-Word2Vec-on-peS2o-Dataset-(AllenNLP))
+- [Assignment 3](https://github.com/Sarvesh1814/DeepNeuralNLP/tree/Pipeline-for-Research-Paper-Simplification)
 
 
 
@@ -27,7 +28,8 @@ Here are the minds behind this project:
 2. Text Preprocessing (Stopwords, Lemmatization)
 3. Understanding of TFIDF technique
 4. Knowledge of Word2Vec Modelling
-
+5. Language Modelling
+6. Neural Models of NLP
 
 
 ---
